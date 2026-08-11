@@ -273,8 +273,8 @@ export default function HomePage() {
               transition={{ duration: 0.7 }}
             >
               <Image
-                src="/images/dashboard-carpath-184k.png"
-                alt="Tableau de bord 3D de pilotage CARPATH Operating System avec 184k €"
+                src="/images/dashboard-carpath-strict-bw.png"
+                alt="Tableau de bord 3D de pilotage CARPATH Operating System en fond N&B strict"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-103"
               />
