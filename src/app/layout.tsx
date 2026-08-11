@@ -46,7 +46,9 @@ export const metadata: Metadata = {
       { url: "/icon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico" },
     ],
-    apple: "/icon.svg",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
@@ -57,6 +59,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" data-theme="dark" className={`${poppins.variable} ${inter.variable}`}>
+      <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon.png" />
+      </head>
       <body className="min-h-screen flex flex-col font-body bg-[var(--bg-base)] text-[var(--text-primary)] antialiased">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
