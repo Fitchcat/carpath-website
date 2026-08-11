@@ -273,7 +273,7 @@ export default function HomePage() {
               transition={{ duration: 0.7 }}
             >
               <Image
-                src="/images/dashboard-carpath-strict-bw.png?v=2"
+                src="/images/dashboard-carpath-v2.png"
                 alt="Tableau de bord 3D de pilotage CARPATH Operating System en fond N&B strict"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-103"

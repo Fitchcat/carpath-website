@@ -123,7 +123,7 @@ export default function SystemePage() {
             >
               <div className="relative w-full max-w-[540px] aspect-[16/10] rounded-2xl overflow-hidden border border-[#C79A3B]/40 shadow-2xl group">
                 <Image
-                  src="/images/dashboard-carpath-strict-bw.png?v=2"
+                  src="/images/dashboard-carpath-v2.png"
                   alt="Aperçu 3D du tableau de bord CARPATH OS en fond N&B strict"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
