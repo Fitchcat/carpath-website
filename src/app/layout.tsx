@@ -35,11 +35,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://carpath.fr",
+    url: "https://carpath-site.vercel.app",
     siteName: "CARPATH",
     title: "Pilotez votre croissance | CARPATH",
     description:
       "CARPATH installe et pilote le système de croissance qui manque à votre entreprise.",
+  },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    apple: "/icon.svg",
   },
 };
 
