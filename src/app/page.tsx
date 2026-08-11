@@ -61,7 +61,12 @@ export default function HomePage() {
       <main className="flex-1 overflow-hidden bg-[#0D0D0D]">
         {/* HERO - FULL BLEED MOUNTAIN PATH B&W SELECTIVE BRONZE */}
         <SectionHero
-          h1="Votre entreprise avance. Votre croissance, elle, piétine."
+          h1={
+            <>
+              Votre entreprise avance.<br />
+              Votre croissance, elle, piétine.
+            </>
+          }
           subtitle="CARPATH installe et pilote le système de croissance qui manque à votre entreprise, pour que vous décidiez avec clarté, pas à l'instinct."
           primaryCtaText="Réserver mon audit gratuit"
           secondaryCtaText="Découvrir la méthode"

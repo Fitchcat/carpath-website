@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { ButtonPrimary, ButtonSecondary } from "./Buttons";
 
 interface SectionHeroProps {
-  h1: string;
+  h1: React.ReactNode;
   subtitle: string;
   primaryCtaText?: string;
   secondaryCtaText?: string;
@@ -55,7 +55,7 @@ export function SectionHero({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="font-heading font-extrabold text-4xl sm:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-white max-w-[18ch] mx-auto drop-shadow-2xl"
+          className="font-heading font-extrabold text-4xl sm:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-white max-w-[22ch] mx-auto drop-shadow-2xl"
         >
           {h1}
         </motion.h1>
@@ -85,7 +85,7 @@ export function SectionHero({
           </ButtonPrimary>
           <ButtonSecondary
             href="/methode"
-            className="w-full sm:w-auto text-lg py-4 px-8 backdrop-blur-md bg-white/5 hover:bg-white/10"
+            className="w-full sm:w-auto text-lg py-4 px-8 backdrop-blur-md bg-white/10 hover:bg-white/20 !text-white hover:!text-white border-white/30 hover:border-white"
           >
             {secondaryCtaText}
           </ButtonSecondary>
