@@ -28,11 +28,11 @@
 ## [HERO]
 
 **H1 :**  
-Votre valeur est dans votre métier, pas dans le bricolage marketing.  
-Nous installons le système qui vous permet de piloter votre croissance.
+Votre métier exige votre expertise.  
+Votre croissance exige un système.
 
 **Sous-titre :**  
-Concentrez-vous sur votre expertise. CARPATH installe, gère et suit votre système de croissance pour que vous décidiez avec clarté, pas à l'instinct.
+CARPATH installe et pilote le système de croissance qui manque à votre entreprise — pour que vous décidiez avec clarté, pas à l'instinct.
 
 **CTA primaire :** Réserver mon audit gratuit  
 **CTA secondaire :** Découvrir la méthode
