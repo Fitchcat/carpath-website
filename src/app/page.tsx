@@ -63,11 +63,11 @@ export default function HomePage() {
         <SectionHero
           h1={
             <>
-              Votre entreprise avance.<br />
-              Votre croissance, elle, piétine.
+              Votre valeur est dans votre métier, pas dans le bricolage marketing.<br />
+              Nous installons le système qui vous permet de piloter votre croissance.
             </>
           }
-          subtitle="CARPATH installe et pilote le système de croissance qui manque à votre entreprise, pour que vous décidiez avec clarté, pas à l'instinct."
+          subtitle="Concentrez-vous sur votre expertise. CARPATH installe, gère et suit votre système de croissance pour que vous décidiez avec clarté, pas à l'instinct."
           primaryCtaText="Réserver mon audit gratuit"
           secondaryCtaText="Découvrir la méthode"
         />
