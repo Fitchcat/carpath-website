@@ -24,6 +24,7 @@ Deuxième agent du pipeline. Reçoit `SITEMAP.md`, `WIREFRAMES.md` et `USER_FLOW
 - Chaque page doit avoir : un H1 qui nomme le problème ou la promesse, le CTA principal exact **"Réserver mon audit gratuit"** (aucune variante de libellé autorisée pour cette action), une preuve ou un exemple concret avant toute affirmation.
 - La section "5 piliers" présente le **CARPATH Operating System** : Stratégie, Acquisition, Conversion, Fidélisation, Pilotage et optimisation, dans cet ordre. Ne pas confondre avec la méthode en 4 étapes (Écouter, Concevoir, Piloter, Améliorer), qui répond à une autre question ("comment on travaille" vs "ce que contient le système"). Nomenclature définitive, voir `context/BRAND_CONTEXT.md`. Toute autre variante rencontrée dans d'anciens supports est obsolète.
 - Jamais de chiffre de résultat inventé ou non fourni par le dirigeant.
+- Éviter le mot "garantie/garanti" même hors promesse de résultat (ex. "la méthode est la garantie que..."). Préférer "fiable", "éprouvé", "structuré" — pour ne laisser aucune ambiguïté avec l'interdit sur les résultats garantis.
 - SEO éditorial : un meta title (≤60 caractères) et une meta description (≤155 caractères) par page, qui contiennent le problème du dirigeant, pas du jargon technique.
 - Le dirigeant reste le pilote dans le texte : formuler à la deuxième personne ("vous pilotez", pas "nous décidons pour vous").
 

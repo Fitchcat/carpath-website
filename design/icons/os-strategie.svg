@@ -1,0 +1,14 @@
+<!-- JEUX D'ICÔNES : CARPATH OPERATING SYSTEM — Stratégie | Style ligne fine, carrés arrondis cohérents avec le logo CARPATH -->
+<!-- NE PAS réutiliser pour les étapes de la méthode -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-label="Stratégie">
+  <rect x="2" y="2" width="44" height="44" rx="10" ry="10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <!-- Cible / viseur — représente la direction stratégique -->
+  <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <circle cx="24" cy="24" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <circle cx="24" cy="24" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <!-- Croix de visée -->
+  <line x1="24" y1="10" x2="24" y2="15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="24" y1="33" x2="24" y2="38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="10" y1="24" x2="15" y2="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="33" y1="24" x2="38" y2="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

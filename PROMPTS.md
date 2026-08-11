@@ -64,6 +64,8 @@ Range-les dans design/icons/{nom}.svg. Ces deux jeux d'icônes ne doivent jamais
 
 Le site est en mode sombre par défaut avec switch vers un mode clair : tous les composants doivent être déclinés dans les deux jeux de tokens.
 
+Pour l'exécution technique (accessibilité, contraste, structure de tokens, patterns Tailwind), consulte les skills dans .agents/skills/ (ui-ux-pro-max, design-system, ui-styling). Elles ne doivent jamais te faire dévier du style déjà verrouillé dans BRAND_CONTEXT.md et TOKENS.md.
+
 Signale en tête de réponse toute page où le texte du Copywriter manquerait encore.
 ```
 
@@ -81,6 +83,25 @@ Chaque CTA "Réserver mon audit gratuit" doit pointer vers TidyCal (embed ou lie
 Livre DEPLOY.md avec les instructions de déploiement.
 
 Signale tout écart assumé par rapport aux specs, et tout blocage vers un autre agent.
+```
+
+## Prompt 4bis — Passe premium (après retour "trop basique" sur le preview)
+
+```
+Charge l'agent Front-End Engineer défini dans .agents/agents/frontend-engineer/agent.md.
+
+Le dirigeant a vu le preview local et le juge trop plat, pas assez haut de gamme (référence visée : qualité Webflow/Framer showcase). Lis la nouvelle section "Direction premium — correctif retour utilisateur" ajoutée en tête de design/TOKENS.md et applique-la intégralement :
+
+1. Supprime l'usage de public/images/copilot-human.png (photo de stock générique, à bannir).
+2. Régénère public/images/dashboard-mockup.png : il affiche actuellement "ALPHA CORP" au lieu de CARPATH, c'est une erreur de marque à corriger immédiatement — utilise le logo et le nom CARPATH exacts.
+3. Régénère toutes les photos utilisées sur le site en "color pop" : noir et blanc pur avec un seul élément intentionnel de la scène conservé en bronze réel (technique selective color) — pas un filtre CSS grayscale uniforme, pas de duotone global. Palette stricte noir/blanc/bronze, aucune autre couleur. Pour mountain-path.png : régénère avec la montagne, le ciel et la silhouette en noir et blanc pur, et uniquement le chemin qui serpente conservé en couleur bronze/or — c'est le point focal coloré du visuel.
+4. Refais la section hero en plein-bleed : mountain-path.png (nouvelle version "color pop") en fond de section complète avec dégradé sombre, texte en overlay — pas une petite carte dans une colonne.
+5. Ajoute des animations Framer Motion au scroll (whileInView) sur toutes les sections du site, pas seulement au chargement de la page. Ajoute des micro-interactions au survol sur les cartes et boutons.
+6. Renforce la hiérarchie typographique des H1 (plus grand, plus contrasté, tracking resserré).
+
+Ne touche à aucun texte (content/*.md fait foi) ni à aucune couleur de design/TOKENS.md — uniquement le traitement visuel, les images et les animations.
+
+Liste en fin de réponse chaque fichier modifié et un avant/après en une phrase.
 ```
 
 ## Prompt 5 — Brand Guardian (à chaque PR, avant merge sur main)

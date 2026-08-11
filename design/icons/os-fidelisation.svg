@@ -1,0 +1,11 @@
+<!-- JEUX D'ICÔNES : CARPATH OPERATING SYSTEM — Fidélisation | Style ligne fine, carrés arrondis cohérents avec le logo CARPATH -->
+<!-- NE PAS réutiliser pour les étapes de la méthode -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-label="Fidélisation">
+  <rect x="2" y="2" width="44" height="44" rx="10" ry="10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <!-- Boucle de fidélisation — cycle client qui revient -->
+  <path d="M24 14 C30 14 35 18.5 35 24 C35 29.5 30 34 24 34 C18 34 13 29.5 13 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Flèche de retour -->
+  <polyline points="17,20 13,24 17,28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Lien / cœur stylisé au centre — relation durable -->
+  <path d="M24 28 C24 28 19 25 19 21.5 C19 19.5 20.5 18 22 18 C23 18 24 19 24 19 C24 19 25 18 26 18 C27.5 18 29 19.5 29 21.5 C29 25 24 28 24 28 Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+</svg>

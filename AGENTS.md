@@ -49,7 +49,31 @@ Avant toute production, lire `context/BRAND_CONTEXT.md`. Aucun agent ne peut dé
 - Méthode officielle CARPATH pour le site : **Écouter, Concevoir, Piloter, Améliorer** (version des documents écrits, pas celle du carnet imprimé).
 - CTA principal unique sur tout le site : **"Réserver mon audit gratuit"**.
 
+## Skills techniques installées (.agents/skills/)
+
+Installé via `npx ui-ux-pro-max-cli init --ai antigravity` (CLI officielle, MIT, multi-plateforme dont Antigravity). Pour mettre à jour : `npx ui-ux-pro-max-cli update`.
+
+Skills pertinentes pour ce projet, à utiliser par l'UI Designer et le Front-End Engineer pour l'exécution technique uniquement (jamais pour la direction esthétique, qui reste fixée par `context/BRAND_CONTEXT.md` et `design/TOKENS.md`) :
+
+- `ui-ux-pro-max` — base de règles UX/accessibilité/interaction (contraste, touch targets, animation, dark/light mode) interrogeable par mots-clés.
+- `design-system` — architecture de tokens en 3 couches (primitive → semantic → component), directement compatible avec `design/TOKENS.md`.
+- `ui-styling` — patterns Tailwind CSS et shadcn/ui pour l'implémentation concrète des composants.
+
+Règle stricte : ces skills ne proposent jamais le style, la palette ou le ton — ceux-ci sont déjà verrouillés. Elles ne servent qu'à bien exécuter techniquement (accessibilité, contraste, responsive, structure de tokens).
+
+Le CLI a aussi installé 4 dossiers hors scope (`banner-design`, `slides`, `design`, `brand`) — bruit résiduel de l'installeur, sans usage pour ce projet. Le squad ne doit pas s'en servir : `context/BRAND_CONTEXT.md` et Brand Guardian font foi pour tout ce qui touche à la marque, pas le skill `brand` générique. Pascal peut les supprimer via le Finder s'il veut un arbre plus propre (`apps/website/.agents/skills/banner-design`, `/slides`, `/design`, `/brand`) — non bloquant.
+
 ## Ce qui manque encore et bloque le pipeline
 
 - Décision sur l'hébergement/déploiement (Vercel par défaut avec cette stack).
 - 9 icônes à produire dans le style du logo : 5 pour les piliers du CARPATH Operating System (Stratégie, Acquisition, Conversion, Fidélisation, Pilotage et optimisation) + 4 pour la méthode (Écouter, Concevoir, Piloter, Améliorer). Le set existant ne peut pas être réutilisé. À produire avant que l'UI Designer finalise `design/COMPONENTS.md` — voir `design/TOKENS.md`.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

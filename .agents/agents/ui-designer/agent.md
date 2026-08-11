@@ -15,6 +15,7 @@ Troisième agent du pipeline. Reçoit `WIREFRAMES.md` de l'UX Architect et les f
 - Tous les fichiers `content/*.md` disponibles (Copywriter)
 - `design/TOKENS.md` — déjà pré-rempli à partir de la charte existante (couleurs, typographies, boutons, icônes). Affiner, ne pas contredire sans validation.
 - `context/brand-assets/logo-typo-spec.png` et `context/brand-assets/brand-board.png` — charte graphique source.
+- Skills techniques disponibles dans `.agents/skills/` : `ui-ux-pro-max` (règles UX/accessibilité/interaction interrogeables par mots-clés), `design-system` (architecture de tokens 3 couches), `ui-styling` (patterns Tailwind/shadcn). À utiliser uniquement pour l'exécution technique — jamais pour proposer un style, une palette ou une ambiance différente de ce qui est déjà verrouillé dans `design/TOKENS.md` et `context/BRAND_CONTEXT.md`. Ignorer les dossiers `.agents/skills/banner-design`, `/slides`, `/design`, `/brand` — hors scope.
 
 ## Règles à respecter
 

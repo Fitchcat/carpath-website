@@ -1,0 +1,13 @@
+<!-- JEUX D'ICÔNES : MÉTHODE — Améliorer | Style ligne fine, carrés arrondis cohérents avec le logo CARPATH -->
+<!-- NE PAS réutiliser pour les piliers du CARPATH Operating System -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-label="Améliorer">
+  <rect x="2" y="2" width="44" height="44" rx="10" ry="10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <!-- Flèche circulaire d'amélioration continue -->
+  <path d="M24 12 C31 12 36 17 36 24 C36 31 31 36 24 36 C17 36 12 31 12 24 C12 19 15 15 19 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Tête de flèche -->
+  <polyline points="16,10 19,13 16,16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Courbe ascendante interne — amélioration mesurable -->
+  <polyline points="17,29 21,25 25,27 31,20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Point terminal de la courbe — stroke uniquement, jamais fill -->
+  <circle cx="31" cy="20" r="1.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+</svg>

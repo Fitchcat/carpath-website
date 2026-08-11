@@ -13,7 +13,7 @@ Méthode en 4 étapes : Écouter → Concevoir → Piloter → Améliorer.
 
 ## Client idéal
 
-Dirigeant de TPE/PME, moins de 30 salariés, 200 000 € à 1,5 M€ de CA, activité déjà établie, conscient de son potentiel de développement, cherche un partenaire durable plutôt qu'une prestation ponctuelle.
+Dirigeant de TPE/PME, moins de 30 salariés, 150 000 € à 2 M€ de CA, activité déjà établie, conscient de son potentiel de développement, cherche un partenaire durable plutôt qu'une prestation ponctuelle.
 
 ## Positionnement
 

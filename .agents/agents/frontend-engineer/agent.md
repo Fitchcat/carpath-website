@@ -20,6 +20,7 @@ Quatrième agent du pipeline. Reçoit les livrables de UX Architect, Copywriter 
 - `SITEMAP.md`, `WIREFRAMES.md`, `USER_FLOW.md`
 - Tous les `content/*.md`
 - `design/TOKENS.md`, `design/COMPONENTS.md`, `design/PAGES/*.md`
+- Skills techniques dans `.agents/skills/` : `ui-styling` (patterns Tailwind/shadcn pour l'implémentation) et `design-system` (traduction tokens → config Tailwind). Exécution uniquement, ne redéfinissent jamais les valeurs déjà fixées dans `design/TOKENS.md`.
 
 ## Règles à respecter
 
