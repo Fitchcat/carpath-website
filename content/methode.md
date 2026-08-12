@@ -28,17 +28,17 @@
 ## [HERO PAGE INTERNE]
 
 **H1 :**  
-La méthode CARPATH : 4 étapes pour installer et piloter votre croissance
+La méthode CARPATH
 
 **Sous-titre :**  
-Avant de concevoir quoi que ce soit, nous écoutons. Avant de piloter, nous concevons. Chaque étape a un rôle précis — et vous savez toujours où vous en êtes.
+4 étapes pour installer et piloter votre croissance. Chaque étape a un rôle.
 
 ---
 
 ## [INTRO MÉTHODE]
 
 **Paragraphe :**  
-La croissance ne s'improvise pas. Elle se construit avec méthode, elle se pilote avec des indicateurs, elle s'améliore en continu. Ce n'est pas une promesse abstraite : c'est un processus structuré, éprouvé, que CARPATH applique à chaque partenariat. Vous n'avez pas à tout réinventer — vous avez à piloter.
+La croissance ne s'improvise pas. Elle se construit avec méthode, elle se pilote avec des indicateurs, elle s'améliore en continu. Ce n'est pas une promesse abstraite : c'est un processus structuré, éprouvé, que CARPATH applique à chaque partenariat. Vous n'avez pas à tout réinventer, vous avez à piloter.
 
 ---
 
