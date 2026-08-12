@@ -189,7 +189,7 @@ Fond : `bg-surface` (alternance)
 
 **Layout desktop :**
 ```
-Heading2 (centré) : "Le système de croissance que nous installons chez vous"
+Heading2 (centré) : "Le système de croissance que nous mettons en place pour vous"
 
 [space-8]
 

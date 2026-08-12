@@ -109,7 +109,7 @@ Nous affinons en continu ce qui produit des résultats, et ajustons ce qui ne pe
 ## [CARPATH OPERATING SYSTEM]
 
 **Titre de section :**  
-Le système de croissance que nous installons chez vous
+Le système de croissance que nous mettons en place pour vous
 
 **Pilier 1 — Stratégie**  
 Un cap clair, des priorités définies, des décisions alignées.

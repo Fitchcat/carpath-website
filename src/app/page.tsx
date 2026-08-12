@@ -202,7 +202,7 @@ export default function HomePage() {
                 ARCHITECTURE OPÉRATIONNELLE
               </span>
               <Heading2 className="mx-auto text-3xl sm:text-4xl lg:text-5xl max-w-none pt-2 mb-4">
-                Le système de croissance que nous installons chez vous
+                Le système de croissance que nous mettons en place pour vous
               </Heading2>
               <BodyBase className="mx-auto text-base sm:text-lg">
                 Le CARPATH Operating System repose sur 5 piliers indissociables<br className="hidden sm:inline" />
