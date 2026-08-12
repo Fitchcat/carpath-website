@@ -15,6 +15,7 @@ import { CardEtape } from "@/components/CardEtape";
 import { CardPilier } from "@/components/CardPilier";
 import { CardTestimonialAlternative } from "@/components/CardTestimonial";
 import { ButtonGhost, ButtonPrimary } from "@/components/Buttons";
+import { SectionArchitectureInteractive } from "@/components/SectionArchitectureInteractive";
 
 export default function HomePage() {
   const problemSymptoms = [
@@ -111,68 +112,8 @@ export default function HomePage() {
           </motion.div>
         </SectionContenu>
 
-        {/* POSITIONNEMENT CARPATH - MONOCHROME ARCHITECTURE & BRONZE LINE */}
-        <SectionContenu bg="surface" className="py-20 lg:py-28 relative">
-          <div className="max-w-site mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            <motion.div
-              className="lg:col-span-6 space-y-6"
-              initial={{ opacity: 0, x: -40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.7 }}
-            >
-              <div>
-                <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
-                  POSITIONNEMENT & COPILOTAGE
-                </span>
-                <Heading2 className="text-3xl sm:text-4xl lg:text-5xl leading-[1.2] pt-2">
-                  CARPATH n&apos;est pas une agence.<br />
-                  Ce n&apos;est pas un cabinet.<br />
-                  Ce n&apos;est pas un outil.
-                </Heading2>
-              </div>
-              <BodyLarge className="text-lg leading-relaxed pt-2">
-                CARPATH est votre copilote de croissance. Nous assemblons et pilotons une <strong>architecture de briques techniques interconnectées</strong> — site optimisé, landing pages dédiées, séquences d&apos;emails automatisées, funnels de conversion et tableaux de bord. Chaque brique est intégrée pour générer plus de leads qualifiés et maximiser leur conversion.
-              </BodyLarge>
-              <div className="pt-4">
-                <ButtonPrimary href="/audit-gratuit" className="py-4 px-8 text-base">
-                  Réserver mon audit gratuit
-                </ButtonPrimary>
-              </div>
-            </motion.div>
-
-            {/* Visual B&W Architecture Showcase */}
-            <motion.div
-              className="lg:col-span-6 relative flex justify-center"
-              initial={{ opacity: 0, x: 40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.7 }}
-            >
-              <div className="relative w-full max-w-[540px] aspect-[4/3] rounded-2xl overflow-hidden border border-[#C79A3B]/40 shadow-2xl shadow-black/80 group">
-                <Image
-                  src="/images/architecture-bw.png"
-                  alt="Architecture de briques techniques interconnectées CARPATH"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-transparent opacity-80" />
-
-                <div className="absolute bottom-4 left-4 right-4 bg-[#0D0D0D]/95 backdrop-blur-md p-4 rounded-xl border border-white/20 flex items-center justify-between shadow-lg">
-                  <div>
-                    <p className="font-heading font-semibold text-xs text-[#C79A3B] tracking-wider uppercase">
-                      ARCHITECTURE TECH INTERCONNECTÉE
-                    </p>
-                    <p className="text-xs text-white font-medium mt-0.5">
-                      Briques de solutions (site, landing pages, emails, funnels) orchestrées pour capturer et convertir vos leads.
-                    </p>
-                  </div>
-                  <span className="w-3 h-3 rounded-full bg-[#C79A3B] animate-ping" />
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </SectionContenu>
+        {/* ARCHITECTURE DU SYSTÈME DE CROISSANCE - BRIQUES INTERCONNECTÉES & FLUX DYNAMIQUE */}
+        <SectionArchitectureInteractive />
 
         {/* MÉTHODE EN 4 ÉTAPES - WEBFLOW STAGGER CARDS */}
         <SectionContenu bg="base" className="py-20 lg:py-28">
