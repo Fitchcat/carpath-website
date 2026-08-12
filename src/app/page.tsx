@@ -132,7 +132,7 @@ export default function HomePage() {
                 </Heading2>
               </div>
               <BodyLarge className="text-lg leading-relaxed pt-2">
-                CARPATH est votre copilote de croissance. Nous installons et pilotons un système de croissance sur-mesure, directement dans votre entreprise. Vous restez aux commandes — nous mettons la méthode, les indicateurs et le pilotage. Le résultat : des décisions fondées sur des données, pas sur des intuitions.
+                CARPATH est votre copilote de croissance. Nous assemblons et pilotons une <strong>architecture de briques techniques interconnectées</strong> — site optimisé, landing pages dédiées, séquences d&apos;emails automatisées, funnels de conversion et tableaux de bord. Chaque brique est intégrée pour générer plus de leads qualifiés et maximiser leur conversion.
               </BodyLarge>
               <div className="pt-4">
                 <ButtonPrimary href="/audit-gratuit" className="py-4 px-8 text-base">
@@ -152,7 +152,7 @@ export default function HomePage() {
               <div className="relative w-full max-w-[540px] aspect-[4/3] rounded-2xl overflow-hidden border border-[#C79A3B]/40 shadow-2xl shadow-black/80 group">
                 <Image
                   src="/images/architecture-bw.png"
-                  alt="Architecture de système de croissance CARPATH"
+                  alt="Architecture de briques techniques interconnectées CARPATH"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -161,10 +161,10 @@ export default function HomePage() {
                 <div className="absolute bottom-4 left-4 right-4 bg-[#0D0D0D]/95 backdrop-blur-md p-4 rounded-xl border border-white/20 flex items-center justify-between shadow-lg">
                   <div>
                     <p className="font-heading font-semibold text-xs text-[#C79A3B] tracking-wider uppercase">
-                      ARCHITECTURE SUR-MESURE
+                      ARCHITECTURE TECH INTERCONNECTÉE
                     </p>
                     <p className="text-xs text-white font-medium mt-0.5">
-                      Un système structuré, installé directement dans votre entreprise.
+                      Briques de solutions (site, landing pages, emails, funnels) orchestrées pour capturer et convertir vos leads.
                     </p>
                   </div>
                   <span className="w-3 h-3 rounded-full bg-[#C79A3B] animate-ping" />
