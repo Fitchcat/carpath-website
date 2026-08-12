@@ -350,11 +350,8 @@ export function SectionPositionnement() {
               {/* Entête du module de la boucle */}
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 pb-6">
                 <div className="text-center sm:text-left">
-                  <span className="text-xs font-bold text-[#C79A3B] uppercase tracking-widest">
-                    CYCLE PERMANENT EN 3D
-                  </span>
-                  <h4 className="font-heading font-extrabold text-xl sm:text-2xl text-white mt-1">
-                    La Boucle Vertueuse du Système en Rotation Continue
+                  <h4 className="font-heading font-extrabold text-xl sm:text-3xl text-white">
+                    La Boucle Vertueuse du système
                   </h4>
                 </div>
 
