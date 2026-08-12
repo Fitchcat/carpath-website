@@ -419,13 +419,10 @@ export function SectionPositionnement() {
                     );
                   })}
 
-                  {/* Centre du Cercle : Carpath OS */}
+                  {/* Centre du Cercle : CARPATH OS */}
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center pointer-events-none p-4">
-                    <span className="font-heading font-extrabold text-xs text-[#C79A3B] tracking-wider uppercase">
-                      BOUCLE VERTUEUSE
-                    </span>
-                    <span className="text-[11px] text-gray-300 mt-1 font-medium">
-                      Cycle perpétuel
+                    <span className="font-heading font-extrabold text-base sm:text-lg text-[#C79A3B] tracking-wider uppercase">
+                      CARPATH OS
                     </span>
                   </div>
                 </div>
@@ -459,9 +456,6 @@ export function SectionPositionnement() {
                             </h4>
                           </div>
                         </div>
-                        <span className="text-xs font-semibold text-[#C79A3B] bg-[#C79A3B]/10 px-3 py-1.5 rounded-full border border-[#C79A3B]/30">
-                          Boucle continue 🔄
-                        </span>
                       </div>
 
                       {/* Contenu principal de la face */}
