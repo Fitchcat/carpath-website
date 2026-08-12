@@ -13,34 +13,6 @@ import { CardEtape } from "@/components/CardEtape";
 import { ProgressSteps } from "@/components/ProgressSteps";
 import { ButtonSecondary } from "@/components/Buttons";
 
-// 4 Jalons / Pins de positionnement bronze le long du chemin de montagne
-const mountainMilestones = [
-  {
-    step: "01",
-    label: "Écouter",
-    top: "72%",
-    left: "22%",
-  },
-  {
-    step: "02",
-    label: "Concevoir",
-    top: "52%",
-    left: "44%",
-  },
-  {
-    step: "03",
-    label: "Piloter",
-    top: "34%",
-    left: "62%",
-  },
-  {
-    step: "04",
-    label: "Améliorer",
-    top: "16%",
-    left: "80%",
-  },
-];
-
 export default function MethodePage() {
   return (
     <>
@@ -48,73 +20,43 @@ export default function MethodePage() {
       <main className="flex-1 overflow-hidden bg-[#0D0D0D]">
         {/* HERO PAGE INTERNE */}
         <SectionHeroInterne
-          h1="La méthode CARPATH"
-          subtitle="4 étapes pour installer et piloter votre croissance. Chaque étape a un rôle."
+          h1="La méthode CARPATH : 4 étapes pour installer et piloter votre croissance"
+          subtitle="Avant de concevoir quoi que ce soit, nous écoutons. Avant de piloter, nous concevons. Chaque étape a un rôle précis — et vous savez toujours où vous en êtes."
         />
 
         {/* INTRO MÉTHODE */}
         <SectionContenu bg="surface" className="py-16 lg:py-24">
           <div className="max-w-site mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <motion.div
-              className="lg:col-span-6 space-y-6 text-center lg:text-left"
+              className="lg:col-span-7 space-y-4 text-center lg:text-left"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6 }}
             >
-              <div>
-                <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
-                  PROCESSUS STRUCTURÉ &amp; ÉPROUVÉ
-                </span>
-              </div>
+              <span className="text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-3.5 py-1.5 rounded-full border border-[#C79A3B]/40">
+                PROCESSUS STRUCTURÉ & ÉPROUVÉ
+              </span>
               <BodyLarge className="text-xl leading-relaxed">
-                La croissance ne s&apos;improvise pas. Elle se construit avec méthode, elle se pilote avec des indicateurs, elle s&apos;améliore en continu. Ce n&apos;est pas une promesse抽象 : c&apos;est un processus structuré, éprouvé, que CARPATH applique à chaque partenariat. Vous n&apos;avez pas à tout réinventer, vous avez à piloter.
+                La croissance ne s&apos;improvise pas. Elle se construit avec méthode, elle se pilote avec des indicateurs, elle s&apos;améliore en continu. Ce n&apos;est pas une promesse abstraite : c&apos;est un processus structuré, éprouvé, que CARPATH applique à chaque partenariat. Vous n&apos;avez pas à tout réinventer — vous avez à piloter.
               </BodyLarge>
             </motion.div>
 
-            {/* Photo Agrandie avec Jalons / Indicateurs Bronze (Style Google Map Pins) */}
             <motion.div
-              className="lg:col-span-6 relative flex justify-center"
+              className="lg:col-span-5 relative flex justify-center"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6 }}
             >
-              <div className="relative w-full max-w-[580px] aspect-[16/10] rounded-2xl overflow-hidden border border-[#C79A3B]/50 shadow-[0_20px_50px_rgba(0,0,0,0.8)] group">
+              <div className="relative w-full max-w-[460px] aspect-[4/3] rounded-2xl overflow-hidden border border-[#C79A3B]/40 shadow-2xl group">
                 <Image
                   src="/images/hero-mountain-bw.png"
-                  alt="Chemin de montagne jalonnant la méthode CARPATH en 4 étapes"
+                  alt="Vision et cap méthodique CARPATH"
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-104"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D]/80 via-transparent to-transparent" />
-
-                {/* Pins / Jalons Bronze interactifs sur le chemin */}
-                {mountainMilestones.map((m, idx) => (
-                  <motion.div
-                    key={m.step}
-                    style={{ top: m.top, left: m.left }}
-                    initial={{ opacity: 0, scale: 0 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: idx * 0.15 }}
-                    className="absolute -translate-x-1/2 -translate-y-full flex flex-col items-center group/pin z-20 cursor-pointer"
-                  >
-                    {/* Badge du Jalon */}
-                    <div className="bg-[#0D0D0D]/90 backdrop-blur-md border border-[#C79A3B] text-[#C79A3B] px-2.5 py-1 rounded-lg text-[11px] font-bold shadow-lg flex items-center gap-1 whitespace-nowrap group-hover/pin:scale-110 transition-transform">
-                      <span className="text-white font-extrabold">{m.step}</span>
-                      <span>{m.label}</span>
-                    </div>
-
-                    {/* Icône Pin Google style Bronze */}
-                    <div className="relative -mt-1">
-                      <svg className="w-7 h-7 text-[#C79A3B] drop-shadow-[0_0_8px_rgba(199,154,59,0.8)]" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                      </svg>
-                      <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-[#C79A3B] animate-ping" />
-                    </div>
-                  </motion.div>
-                ))}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-transparent opacity-60" />
               </div>
             </motion.div>
           </div>
@@ -166,7 +108,7 @@ export default function MethodePage() {
                   stepName: "Améliorer",
                   title: "Affiner en continu ce qui produit des résultats",
                   description:
-                    "Un système de croissance n'est jamais figé. Les marchés évoluent, les comportements clients changent, les priorités de votre entreprise bougent. À intervalles réguliers, nous analysons les données, identifions ce qui peut être optimisé et proposons des ajustements. Ce n'est pas une remise à zéro — c'est une amélioration continue, ancrée dans les chiffres réels de votre activité.",
+                    "Un système de croissance n'est jamais figé. Les marchés évoluent, les comportements clients changent, les priorités de votre entreprise bougent. À intervals réguliers, nous analysons les données, identifions ce qui peut être optimisé et proposons des ajustements. Ce n'est pas une remise à zéro — c'est une amélioration continue, ancrée dans les chiffres réels de votre activité.",
                   experience:
                     "Vous avez un partenaire qui ne disparaît pas après le démarrage. La relation s'inscrit dans la durée.",
                   isAuditStep: false,
@@ -197,13 +139,11 @@ export default function MethodePage() {
             <Heading2 className="mx-auto">
               Et concrètement, qu&apos;est-ce que je reçois ?
             </Heading2>
-
             <BodyBase className="mx-auto text-base">
-              CARPATH n&apos;est ni une agence d&apos;exécution ponctuelle, ni un cabinet de conseil théorique. Nous installons le CARPATH Operating System dans votre entreprise — une architecture de croissance complète et sur-mesure.
+              La méthode décrit le chemin. Le CARPATH Operating System décrit ce que vous avez entre les mains à l&apos;arrivée : 5 piliers de croissance installés dans votre entreprise, pilotés en continu.
             </BodyBase>
-
             <div className="pt-2">
-              <ButtonSecondary href="/systeme" className="py-3 px-6 text-sm">
+              <ButtonSecondary href="/systeme" className="py-4 px-8 text-base">
                 Découvrir le CARPATH Operating System →
               </ButtonSecondary>
             </div>
@@ -212,8 +152,8 @@ export default function MethodePage() {
 
         {/* CTA FINAL PAGE MÉTHODE */}
         <SectionCTA
-          title="Prêt à démarrer par l'étape 1 — Écouter ?"
-          subtitle="L'audit gratuit est le premier pas de la méthode. Nous analysons votre situation en 45 minutes et vous repartez avec une vision claire."
+          title="L'audit gratuit, c'est l'étape Écouter — appliquée à votre situation."
+          subtitle="30 minutes pour comprendre où vous en êtes et ce que votre système de croissance devrait couvrir en priorité — avec un premier bilan à l'oral et l'audit détaillé envoyé par écrit ensuite. Sans engagement."
           buttonText="Réserver mon audit gratuit"
           bg="base"
         />
