@@ -100,15 +100,17 @@ export default function SystemePage() {
         <SectionContenu bg="surface" className="py-16 lg:py-24">
           <div className="max-w-site mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <motion.div
-              className="lg:col-span-6 space-y-4 text-center lg:text-left"
+              className="lg:col-span-6 space-y-6 text-center lg:text-left"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6 }}
             >
-              <span className="text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-3.5 py-1.5 rounded-full border border-[#C79A3B]/40">
-                ARCHITECTURE GLOBALE
-              </span>
+              <div>
+                <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
+                  ARCHITECTURE GLOBALE
+                </span>
+              </div>
               <BodyLarge className="text-xl leading-relaxed">
                 La plupart des dirigeants de TPE et PME ont déjà essayé des actions marketing ou commerciales séparées. Un peu de SEO par-ci, une campagne par-là, un outil CRM jamais vraiment utilisé. Le problème n&apos;est pas les actions — c&apos;est l&apos;absence de système qui les relie. Le CARPATH Operating System, c&apos;est cette architecture que vous n&apos;avez pas encore : 5 piliers interdépendants, conçus ensemble, pilotés en continu.
               </BodyLarge>
@@ -174,6 +176,11 @@ export default function SystemePage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
           >
+            <div>
+              <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
+                ARCHITECTURE GLOBALE
+              </span>
+            </div>
             <Heading2 className="mx-auto">
               Les 5 piliers forment un système, pas une liste à cocher
             </Heading2>
