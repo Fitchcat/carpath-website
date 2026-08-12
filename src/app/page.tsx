@@ -16,6 +16,7 @@ import { CardPilier } from "@/components/CardPilier";
 import { CardTestimonialAlternative } from "@/components/CardTestimonial";
 import { ButtonGhost, ButtonPrimary } from "@/components/Buttons";
 import { SectionArchitectureInteractive } from "@/components/SectionArchitectureInteractive";
+import { ModuleBoucleVertueuse } from "@/components/ModuleBoucleVertueuse";
 
 export default function HomePage() {
   const problemSymptoms = [
@@ -231,46 +232,15 @@ export default function HomePage() {
               </div>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 items-stretch">
-              {[
-                {
-                  id: "strategie" as const,
-                  title: "Stratégie",
-                  description: "Un cap clair, des priorités définies, des décisions alignées.",
-                },
-                {
-                  id: "acquisition" as const,
-                  title: "Acquisition",
-                  description: "Des canaux choisis pour attirer les bons prospects, pas tous les prospects.",
-                },
-                {
-                  id: "conversion" as const,
-                  title: "Conversion",
-                  description: "Un parcours client qui transforme l'intérêt en engagement.",
-                },
-                {
-                  id: "fidelisation" as const,
-                  title: "Fidélisation",
-                  description: "Des clients qui restent, qui reviennent et qui recommandent.",
-                },
-                {
-                  id: "pilotage" as const,
-                  title: "Pilotage et optimisation",
-                  description: "Un tableau de bord pour piloter la performance et prendre les bonnes décisions.",
-                },
-              ].map((pilier, idx) => (
-                <motion.div
-                  key={pilier.id}
-                  className="h-full"
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                >
-                  <CardPilier {...pilier} />
-                </motion.div>
-              ))}
-            </div>
+            {/* Module de la Boucle Vertueuse 3D avec l'anneau CARPATH OS et les cartes qui défilent */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.7, delay: 0.1 }}
+            >
+              <ModuleBoucleVertueuse />
+            </motion.div>
 
             <div className="text-center pt-4">
               <ButtonGhost href="/systeme" className="text-base font-semibold">
