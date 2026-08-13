@@ -43,7 +43,7 @@ Vous êtes probablement la bonne personne si…
 
 **Critères :**
 
-✓ **Votre entreprise est déjà en activité**, avec des clients, un chiffre d'affaires, une réputation à défendre. Vous n'avez pas besoin qu'on vous explique votre métier — vous avez besoin qu'on vous aide à le faire croître avec méthode.
+✓ **Votre entreprise est déjà en activité**, avec des clients, un chiffre d'affaires, une réputation à défendre. Vous n'avez pas besoin qu'on vous explique votre métier, vous avez besoin qu'on vous aide à le faire croître avec méthode.
 
 ✓ **Vous cherchez un partenaire durable, pas une prestation unique.** Vous avez peut-être déjà essayé des missions ponctuelles, une refonte de site, une campagne publicitaire, un consultant six semaines. Vous savez que ça ne suffit pas. Ce que vous voulez, c'est quelqu'un qui reste, qui suit les indicateurs et qui s'ajuste avec vous dans le temps.
 

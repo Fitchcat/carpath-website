@@ -15,7 +15,7 @@ export default function PourQuiPage() {
   const idealDirigeantItems = [
     {
       type: "positive" as const,
-      text: "Votre entreprise est déjà en activité, avec des clients, un chiffre d'affaires, une réputation à défendre. Vous n'avez pas besoin qu'on vous explique votre métier — vous avez besoin qu'on vous aide à le faire croître avec méthode.",
+      text: "Votre entreprise est déjà en activité, avec des clients, un chiffre d'affaires, une réputation à défendre. Vous n'avez pas besoin qu'on vous explique votre métier, vous avez besoin qu'on vous aide à le faire croître avec méthode.",
     },
     {
       type: "positive" as const,
