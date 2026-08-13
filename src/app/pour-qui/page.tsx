@@ -19,15 +19,11 @@ export default function PourQuiPage() {
     },
     {
       type: "positive" as const,
-      text: "Votre CA annuel se situe entre 150 000 € et 2 M€. Pas parce que c'est une condition arbitraire, mais parce que c'est à ce stade que le manque de système de croissance se fait le plus ressentir — et que les bénéfices d'en avoir un sont les plus concrets.",
+      text: "Vous cherchez un partenaire durable, pas une prestation unique. Vous avez peut-être déjà essayé des missions ponctuelles, une refonte de site, une campagne publicitaire, un consultant six semaines. Vous savez que ça ne suffit pas. Ce que vous voulez, c'est quelqu'un qui reste, qui suit les indicateurs et qui s'ajuste avec vous dans le temps.",
     },
     {
       type: "positive" as const,
-      text: "Vous cherchez un partenaire durable, pas une prestation unique. Vous avez peut-être déjà essayé des missions ponctuelles — une refonte de site, une campagne publicitaire, un consultant six semaines. Vous savez que ça ne suffit pas. Ce que vous voulez, c'est quelqu'un qui reste, qui suit les indicateurs et qui s'ajuste avec vous dans le temps.",
-    },
-    {
-      type: "positive" as const,
-      text: "Vous avez identifié un potentiel de développement, mais vous manquez de méthode, de visibilité ou de ressources pour l'activer seul. Vous n'avez pas besoin d'être convaincu que la croissance est possible — vous avez besoin d'un chemin pour y aller.",
+      text: "Vous avez identifié un potentiel de développement, mais vous manquez de méthode, de visibilité ou de ressources pour l'activer seul. Vous n'avez pas besoin d'être convaincu que la croissance est possible, vous avez besoin d'un chemin pour y aller.",
     },
     {
       type: "positive" as const,
@@ -38,7 +34,7 @@ export default function PourQuiPage() {
   const nonTargetItems = [
     {
       type: "negative" as const,
-      text: "Vous démarrez votre activité. CARPATH travaille avec des entreprises déjà en activité. Si vous êtes en phase de création ou de lancement, ce n'est pas la bonne étape — revenez quand vous avez vos premiers clients et une base réelle à développer.",
+      text: "Vous démarrez votre activité. CARPATH travaille avec des entreprises déjà en activité. Si vous êtes en phase de création ou de lancement, ce n'est pas la bonne étape, revenez quand vous avez vos premiers clients et une base réelle à développer.",
     },
     {
       type: "negative" as const,
@@ -46,7 +42,7 @@ export default function PourQuiPage() {
     },
     {
       type: "negative" as const,
-      text: "Vous voulez des résultats sans vous y impliquer. La croissance d'une entreprise est toujours co-construite avec son dirigeant. CARPATH apporte la méthode et le pilotage — vous apportez la connaissance de votre marché, vos décisions et votre implication. Les deux sont indispensables.",
+      text: "Vous voulez des résultats sans vous y impliquer. La croissance d'une entreprise est toujours co-construite avec son dirigeant. CARPATH apporte la méthode et le pilotage. Vous apportez la connaissance de votre marché.",
     },
   ];
 
@@ -65,7 +61,12 @@ export default function PourQuiPage() {
         {/* HERO PAGE INTERNE */}
         <SectionHeroInterne
           h1="CARPATH est fait pour vous si…"
-          subtitle="Nous ne cherchons pas à travailler avec tout le monde. Nous cherchons les dirigeants avec qui un partenariat de croissance a du sens — pour eux comme pour nous. Voici comment vérifier."
+          subtitle={
+            <>
+              Nous cherchons les dirigeants avec qui un partenariat de croissance a du sens pour eux comme pour nous.<br />
+              Voici comment vérifier si CARPATH est adapté à votre situation.
+            </>
+          }
         />
 
         {/* PORTRAIT DU DIRIGEANT IDÉAL */}
@@ -107,16 +108,18 @@ export default function PourQuiPage() {
             </motion.div>
 
             <motion.div
-              className="lg:col-span-6 space-y-6"
+              className="lg:col-span-6 space-y-6 text-center lg:text-left"
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
             >
-              <span className="text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-3.5 py-1.5 rounded-full border border-[#C79A3B]/40">
-                EXIGENCE & PARTENARIAT
-              </span>
+              <div>
+                <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
+                  EXIGENCE &amp; PARTENARIAT
+                </span>
+              </div>
               <Heading2 className="text-3xl sm:text-4xl">
-                CARPATH n&apos;est pas pour tout le monde — et c&apos;est intentionnel.
+                CARPATH n&apos;est pas pour tout le monde, et c&apos;est intentionnel.
               </Heading2>
               <BodyBase className="text-base leading-relaxed">
                 Nous nous engageons aux côtés de dirigeants avec qui nous partageons une même exigence : celle de construire une croissance saine, rentable et maîtrisée dans le temps.
@@ -143,7 +146,7 @@ export default function PourQuiPage() {
             <SectionQualification items={nonTargetItems} />
 
             <div className="bg-[#0D0D0D] rounded-xl p-5 border-l-4 border-l-[#C79A3B] text-sm text-[var(--text-secondary)] italic max-w-[760px] mx-auto border border-white/5">
-              Ce n&apos;est pas un rejet — c&apos;est une honnêteté. Travailler ensemble sans que les conditions soient réunies ne rendrait service à personne.
+              Ce n&apos;est pas un rejet, c&apos;est une honnêteté. Travailler ensemble sans que les conditions soient réunies ne rendrait service à personne.
             </div>
           </motion.div>
         </SectionContenu>
@@ -178,8 +181,8 @@ export default function PourQuiPage() {
 
         {/* CTA CONDITIONNEL */}
         <SectionCTA
-          title="Vous vous reconnaissez ? C'est le moment de vérifier ensemble."
-          subtitle="L'audit gratuit, c'est 30 minutes pour regarder votre situation sans filtre — vos freins, votre potentiel, ce qu'un système de croissance pourrait changer pour vous. Vous repartez avec un premier bilan à l'oral, puis l'audit détaillé par écrit. Sans engagement de votre part."
+          title="Votre situation correspond à ces critères ?"
+          subtitle="Si vous vous reconnaissez dans ce portrait, réservons 45 minutes pour analyser votre situation et vérifier si CARPATH est le bon copilote pour vous."
           buttonText="Réserver mon audit gratuit"
           bg="surface"
         />

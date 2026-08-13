@@ -112,7 +112,8 @@ export default function SystemePage() {
                 </span>
               </div>
               <BodyLarge className="text-xl leading-relaxed">
-                La plupart des dirigeants de TPE et PME ont déjà essayé des actions marketing ou commerciales séparées. Un peu de SEO par-ci, une campagne par-là, un outil CRM jamais vraiment utilisé. Le problème n&apos;est pas les actions — c&apos;est l&apos;absence de système qui les relie. Le CARPATH Operating System, c&apos;est cette architecture que vous n&apos;avez pas encore : 5 piliers interdépendants, conçus ensemble, pilotés en continu.
+                La plupart des dirigeants de TPE et PME ont déjà essayé des actions marketing ou commerciales séparées. Un peu de SEO par-ci, une campagne par-là, un outil CRM jamais vraiment utilisé.<br /><br />
+                Le problème n&apos;est pas les actions, c&apos;est l&apos;absence de système qui les relie. Le CARPATH Operating System, c&apos;est cette architecture que vous n&apos;avez pas encore : 5 piliers interdépendants, conçus ensemble, pilotés en continu.
               </BodyLarge>
             </motion.div>
 
@@ -182,7 +183,8 @@ export default function SystemePage() {
               </span>
             </div>
             <Heading2 className="mx-auto">
-              Les 5 piliers forment un système, pas une liste à cocher
+              Les 5 piliers forment un système,<br />
+              pas une liste à cocher
             </Heading2>
 
             <BodyBase className="mx-auto text-base">
