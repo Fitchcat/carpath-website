@@ -31,7 +31,7 @@
 Réservez votre audit gratuit
 
 **Sous-titre :**  
-En 30 minutes, nous faisons le point sur votre situation : vos freins de croissance, vos priorités, ce qu'un système de croissance pourrait changer pour vous. Vous repartez avec un premier bilan à l'oral, puis l'audit détaillé complet vous est envoyé par écrit dans les jours qui suivent — qu'on travaille ensemble ensuite ou non.
+En 30 minutes, nous faisons le point sur votre situation : vos freins de croissance, vos priorités, ce qu'un système de croissance pourrait changer pour vous. Vous repartez avec un premier bilan à l'oral, puis l'audit détaillé complet vous est envoyé par écrit dans les jours qui suivent, qu'on travaille ensemble ensuite ou non.
 
 ---
 
@@ -47,7 +47,7 @@ Texte : Pas plus. Nous respectons votre temps de dirigeant. La session est cadr�
 
 **Élément 3 — Ce que vous repartez avec**  
 Titre : Un premier bilan, puis l'audit complet par écrit  
-Texte : À la fin de l'échange, vous repartez avec un premier bilan résumé, à l'oral. Dans les jours qui suivent, vous recevez l'audit détaillé complet par écrit — vos principaux freins de croissance et les piliers à activer en priorité. C'est déjà utile, même si vous ne donnez pas suite.
+Texte : À la fin de l'échange, vous repartez avec un premier bilan résumé, à l'oral. Dans les jours qui suivent, vous recevez l'audit détaillé complet par écrit, vos principaux freins de croissance et les piliers à activer en priorité. C'est déjà utile, même si vous ne donnez pas suite.
 
 ---
 

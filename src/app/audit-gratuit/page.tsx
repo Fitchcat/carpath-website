@@ -53,7 +53,7 @@ export default function AuditGratuitPage() {
               Réservez votre audit gratuit
             </Heading1>
             <BodyLarge className="mx-auto text-sm md:text-base">
-              En 30 minutes, nous faisons le point sur votre situation : vos freins de croissance, vos priorités, ce qu&apos;un système de croissance pourrait changer pour vous. Vous repartez avec un premier bilan à l'oral, puis l&apos;audit détaillé complet vous est envoyé par écrit dans les jours qui suivent — qu&apos;on travaille ensemble ensuite ou non.
+              En 30 minutes, nous faisons le point sur votre situation : vos freins de croissance, vos priorités, ce qu&apos;un système de croissance pourrait changer pour vous. Vous repartez avec un premier bilan à l'oral, puis l&apos;audit détaillé complet vous est envoyé par écrit dans les jours qui suivent, qu&apos;on travaille ensemble ensuite ou non.
             </BodyLarge>
           </div>
         </section>
@@ -74,7 +74,7 @@ export default function AuditGratuitPage() {
             <CardReassurance
               iconType="gift"
               title="Un premier bilan, puis l'audit complet par écrit"
-              description="À la fin de l'échange, vous repartez avec un premier bilan résumé, à l'oral. Dans les jours qui suivent, vous recevez l'audit détaillé complet par écrit — vos principaux freins de croissance et les piliers à activer en priorité. C'est déjà utile, même si vous ne donnez pas suite."
+              description="À la fin de l'échange, vous repartez avec un premier bilan résumé, à l'oral. Dans les jours qui suivent, vous recevez l'audit détaillé complet par écrit, vos principaux freins de croissance et les piliers à activer en priorité. C'est déjà utile, même si vous ne donnez pas suite."
             />
           </div>
         </SectionContenu>
