@@ -20,23 +20,30 @@ export default function MethodePage() {
       <main className="flex-1 overflow-hidden bg-[#0D0D0D]">
         {/* HERO PAGE INTERNE */}
         <SectionHeroInterne
-          h1="La méthode CARPATH : 4 étapes pour installer et piloter votre croissance"
-          subtitle="Avant de concevoir quoi que ce soit, nous écoutons. Avant de piloter, nous concevons. Chaque étape a un rôle précis — et vous savez toujours où vous en êtes."
+          h1={
+            <>
+              La méthode CARPATH :<br />
+              4 étapes pour installer et piloter votre croissance
+            </>
+          }
+          subtitle="Avant de concevoir quoi que ce soit, nous écoutons. Avant de piloter, nous concevons. Chaque étape a un rôle précis."
         />
 
         {/* INTRO MÉTHODE */}
         <SectionContenu bg="surface" className="py-16 lg:py-24">
           <div className="max-w-site mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <motion.div
-              className="lg:col-span-7 space-y-4 text-center lg:text-left"
+              className="lg:col-span-7 space-y-6 text-center lg:text-left"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6 }}
             >
-              <span className="text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-3.5 py-1.5 rounded-full border border-[#C79A3B]/40">
-                PROCESSUS STRUCTURÉ & ÉPROUVÉ
-              </span>
+              <div>
+                <span className="inline-block text-xs font-semibold text-[#C79A3B] tracking-widest uppercase bg-[#C79A3B]/10 px-4 py-2 rounded-full border border-[#C79A3B]/40 mb-6">
+                  PROCESSUS STRUCTURÉ &amp; ÉPROUVÉ
+                </span>
+              </div>
               <BodyLarge className="text-xl leading-relaxed">
                 La croissance ne s&apos;improvise pas. Elle se construit avec méthode, elle se pilote avec des indicateurs, elle s&apos;améliore en continu. Ce n&apos;est pas une promesse abstraite : c&apos;est un processus structuré, éprouvé, que CARPATH applique à chaque partenariat. Vous n&apos;avez pas à tout réinventer — vous avez à piloter.
               </BodyLarge>
